@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
     <title>Image Search Engine</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>image search engine</h1>
-    <form action="" id="search-form">
-        <input type="text" id="search-box" placeholder="search here anything...">
-        <button>Search</button>
+    <h1>Image search engine</h1>
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search for any image...">
+        <button type="submit">Search</button>
     </form>
-    <div id="search-result"></div>
-    <button id="show-more-btn">Show more</button>
+    <div id="search-results"></div>
+    <button id="load-more-btn">Load More</button>
 
-
-    <footer>
-        Made with ❤️ by Soumya
-        @These images are from unsplash.</footer>
-    <script src="script.js"></script>    
+    <script src="script.js"></script>
 </body>
 </html>
